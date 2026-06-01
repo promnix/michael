@@ -1,7 +1,7 @@
 import { defineQuery } from "next-sanity";
 
 export const allProjectsQuery = defineQuery(`
-  *[_type == "project" && defined(slug.current)]
+  *[_type == "project" && title != "Build With Promise" && defined(slug.current)]
   | order(isFeatured desc, _createdAt desc) {
     _id,
     _createdAt,
