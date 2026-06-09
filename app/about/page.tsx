@@ -9,12 +9,12 @@ export const revalidate = 60
 
 // metadata
 export const metadata: Metadata = {
-  title: "About Michael Owen | Full-Stack Web Developer",
+  title: "About Michael Odugu | Full-Stack Web Developer",
   description:
-    "Learn about Michael Owen, a full-stack developer building fast websites, MVPs, and digital products for founders, startups, and businesses.",
+    "Learn about Michael Odugu, a full-stack developer building fast websites, MVPs, and digital products for founders, startups, and businesses.",
   keywords: [
-    "About Michael Owen",
-    "Michael Owen",
+    "About Michael Odugu",
+    "Michael Odugu",
     "full-stack developer",
     "web developer in Newbridge",
     "web developer in Canada",
@@ -26,19 +26,19 @@ export const metadata: Metadata = {
     "business website developer",
     "SEO-ready websites",
   ],
-  authors: [{ name: "Michael Owen" }],
-  creator: "Michael Owen",
-  publisher: "Michael Owen",
+  authors: [{ name: "Michael Odugu" }],
+  creator: "Michael Odugu",
+  publisher: "Michael Odugu",
   metadataBase: new URL("https://buildwithpromise.vercel.app"),
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Michael Owen | Full-Stack Web Developer",
+    title: "About Michael Odugu | Full-Stack Web Developer",
     description:
       "I build fast, modern websites, MVPs, and digital products with clarity, purpose, and reliable execution.",
     url: "/about",
-    siteName: "Michael Owen",
+    siteName: "Michael Odugu",
     type: "profile",
     locale: "en_US",
     images: [
@@ -46,13 +46,13 @@ export const metadata: Metadata = {
         url: "/images/aboutpage.jpg",
         width: 1200,
         height: 630,
-        alt: "About Michael Owen - Full-Stack Web Developer",
+        alt: "About Michael Odugu - Full-Stack Web Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Michael Owen | Full-Stack Web Developer",
+    title: "About Michael Odugu | Full-Stack Web Developer",
     description:
       "Full-stack developer building fast websites, MVPs, and digital products for founders, startups, and businesses.",
     images: ["/images/aboutpage.jpg"],
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
           <div className="space-y-5 text-sm leading-8 text-silver md:text-base">
             <p>
-            I’m Michael Owen, a full-stack developer focused on helping founders, startups, and small businesses turn ideas into polished websites, MVPs, and digital products.
+            I’m Michael Odugu, a full-stack developer focused on helping founders, startups, and small businesses turn ideas into polished websites, MVPs, and digital products.
             </p>
             <p>
               I enjoy solving real business problems with clean interfaces, reliable backend systems, and practical product thinking. My work blends frontend development, backend architecture, SEO awareness, and launch-focused execution so businesses can move from idea to something people can actually use.

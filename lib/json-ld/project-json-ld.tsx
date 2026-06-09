@@ -35,7 +35,7 @@ export function generateProjectJsonLd({ project }: ProjectJsonLdProps) {
     const description =
         project.seo?.seoDescription ||
         project.summary ||
-        `Read about ${project.title}, a project by Michael Owen.`;
+        `Read about ${project.title}, a project by Michael Odugu.`;
 
     const imageUrl = image?.asset
         ? urlFor(image).width(1200).height(630).url()
@@ -64,7 +64,7 @@ export function generateProjectJsonLd({ project }: ProjectJsonLdProps) {
             {
                 "@type": "Person",
                 "@id": PERSON_ID,
-                name: "Michael Owen",
+                name: "Michael Odugu",
                 url: BASE_URL,
             },
 
@@ -73,7 +73,7 @@ export function generateProjectJsonLd({ project }: ProjectJsonLdProps) {
                 "@type": "WebSite",
                 "@id": WEBSITE_ID,
                 url: BASE_URL,
-                name: "Michael Owen",
+                name: "Michael Odugu",
             },
 
             // ── WebPage ──
@@ -114,19 +114,19 @@ export function generateProjectJsonLd({ project }: ProjectJsonLdProps) {
                 creator: {
                     "@type": "Person",
                     "@id": PERSON_ID,
-                    name: "Michael Owen",
+                    name: "Michael Odugu",
                     url: BASE_URL,
                 },
                 author: {
                     "@type": "Person",
                     "@id": PERSON_ID,
-                    name: "Michael Owen",
+                    name: "Michael Odugu",
                     url: BASE_URL,
                 },
                 publisher: {
                     "@type": "Person",
                     "@id": PERSON_ID,
-                    name: "Michael Owen",
+                    name: "Michael Odugu",
                     url: BASE_URL,
                 },
                 dateCreated: project._createdAt,
@@ -171,7 +171,7 @@ export function generateProjectJsonLd({ project }: ProjectJsonLdProps) {
                 // Offer to build similar — connects the project back to the service
                 offers: {
                     "@type": "Offer",
-                    description: `Interested in a similar build? Michael Owen is available for ${project.projectType || "web development"} projects.`,
+                    description: `Interested in a similar build? Michael Odugu is available for ${project.projectType || "web development"} projects.`,
                     seller: { "@id": PERSON_ID },
                     url: `${BASE_URL}/#contact`,
                 },

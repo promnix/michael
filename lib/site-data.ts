@@ -60,7 +60,7 @@ export const siteConfig = {
   role: "Fast, modern websites for businesses that want to look credible and convert visitors.",
   url: "https://buildwithpromise.vercel.app",
   description:
-    "Michael Owen helps founders, startups, and small businesses turn ideas into modern websites, MVPs, and digital products that are polished, reliable, and ready to launch.",
+    "Michael Odugu helps founders, startups, and small businesses turn ideas into modern websites, MVPs, and digital products that are polished, reliable, and ready to launch.",
   tagline: "Web • Product",
   heroLead:
     "I design and build fast, responsive, SEO-ready websites that make your business easier to trust, find, and contact.",

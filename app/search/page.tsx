@@ -7,7 +7,7 @@ import { allProjectsQuery } from "@/sanity/lib/queries";
 export const metadata: Metadata = {
   title: "Search",
   description:
-    "Search Michael Owen's services, projects, and practical writing on web development, SEO, performance, and product builds.",
+    "Search Michael Odugu's services, projects, and practical writing on web development, SEO, performance, and product builds.",
   alternates: {
     canonical: "/search",
   },

@@ -13,31 +13,31 @@ export const revalidate = 60
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Explore selected websites, MVPs, and digital products built by Michael Owen, focused on clarity, performance, SEO, and business results.",
+    "Explore selected websites, MVPs, and digital products built by Michael Odugu, focused on clarity, performance, SEO, and business results.",
   alternates: {
     canonical: "/projects",
   },
   openGraph: {
-    title: "Projects | Michael Owen",
+    title: "Projects | Michael Odugu",
     description:
       "Selected websites, MVPs, and digital products built with clean design, reliable development, and product thinking.",
     url: "/projects",
-    siteName: "Michael Owen",
+    siteName: "Michael Odugu",
     type: "website",
     images: [
       {
         url: "/images/projectpage.jpg",
         width: 1200,
         height: 630,
-        alt: "Projects by Michael Owen",
+        alt: "Projects by Michael Odugu",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects | Michael Owen",
+    title: "Projects | Michael Odugu",
     description:
-      "Selected websites, MVPs, and digital products by Michael Owen.",
+      "Selected websites, MVPs, and digital products by Michael Odugu.",
     images: ["/images/projectpage.jpg"],
   },
   robots: {

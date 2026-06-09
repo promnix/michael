@@ -144,7 +144,7 @@ function HomeAbout() {
         </div>
         <div className="space-y-5 text-sm leading-8 text-silver md:text-base">
           <p>
-            I’m Michael Owen, a full-stack developer focused on helping founders, startups, and small businesses turn ideas into polished websites, MVPs, and digital products.
+            I’m Michael Odugu, a full-stack developer focused on helping founders, startups, and small businesses turn ideas into polished websites, MVPs, and digital products.
           </p>
           <p>
             I enjoy solving real business problems with clean interfaces, reliable backend systems, and practical product thinking. My work blends frontend development, backend architecture, SEO awareness, and launch-focused execution so businesses can move from idea to something people can actually use.

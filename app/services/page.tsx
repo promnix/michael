@@ -14,24 +14,24 @@ export const metadata: Metadata = {
     canonical: "/services",
   },
   openGraph: {
-    title: "Services | Michael Owen",
+    title: "Services | Michael Odugu",
     description:
       "Web development for websites, landing pages, MVPs, and WordPress builds.",
     url: "/services",
-    siteName: "Michael Owen",
+    siteName: "Michael Odugu",
     type: "website",
     images: [
       {
         url: "/images/homepage.jpg",
         width: 1200,
         height: 630,
-        alt: "Web development services by Michael Owen",
+        alt: "Web development services by Michael Odugu",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Services | Michael Owen",
+    title: "Services | Michael Odugu",
     description:
       "Web development for websites, landing pages, MVPs, and WordPress builds.",
     images: ["/images/homepage.jpg"],

@@ -6,12 +6,12 @@ import { siteConfig } from "@/lib/site-data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Send Michael Owen your project details for a website, landing page, MVP, or WordPress build.",
+    "Send Michael Odugu your project details for a website, landing page, MVP, or WordPress build.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact | Michael Owen",
+    title: "Contact | Michael Odugu",
     description:
       "Send project details through the contact form and start a focused website or product build.",
     url: "/contact",

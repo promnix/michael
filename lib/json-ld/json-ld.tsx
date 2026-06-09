@@ -7,7 +7,7 @@ const PERSON_ID = `${BASE_URL}/#person`
 const WEBSITE_ID = `${BASE_URL}/#website`
 const SERVICE_ID = `${BASE_URL}/#service`
 const HOME_META_DESCRIPTION =
-    "Fast, SEO-ready business websites and MVPs built with Next.js and WordPress. Michael Owen helps small businesses and founders launch, convert, and compete online."
+    "Fast, SEO-ready business websites and MVPs built with Next.js and WordPress. Michael Odugu helps small businesses and founders launch, convert, and compete online."
 
 const CONTACT_EMAIL = "promnix10@gmail.com"
 const CONTACT_TELEPHONE = "+2347058149298"
@@ -22,7 +22,7 @@ const CONTACT_ADDRESS = {
 const personNode = {
     "@type": "Person",
     "@id": PERSON_ID,
-    name: "Michael Owen",
+    name: "Michael Odugu",
     alternateName: "Promise",
     url: BASE_URL,
     email: CONTACT_EMAIL,
@@ -34,7 +34,7 @@ const personNode = {
     },
     jobTitle: "Full-Stack Developer",
     description:
-        "Michael Owen is a full-stack developer based in Newbridge, Canada, focused on helping founders, startups, and small businesses turn ideas into fast, responsive, SEO-ready websites, MVPs, and digital products.",
+        "Michael Odugu is a full-stack developer based in Newbridge, Canada, focused on helping founders, startups, and small businesses turn ideas into fast, responsive, SEO-ready websites, MVPs, and digital products.",
     address: CONTACT_ADDRESS,
     knowsAbout: [
         "Web Development",
@@ -100,10 +100,10 @@ const websiteNode = {
     "@type": "WebSite",
     "@id": WEBSITE_ID,
     url: BASE_URL,
-    name: "Michael Owen",
+    name: "Michael Odugu",
     alternateName: "Build With Promise",
     description:
-        "Portfolio of Michael Owen, a full-stack developer building fast, modern websites and MVPs for businesses, founders, and startups.",
+        "Portfolio of Michael Odugu, a full-stack developer building fast, modern websites and MVPs for businesses, founders, and startups.",
     publisher: { "@id": PERSON_ID },
     author: { "@id": PERSON_ID },
     inLanguage: "en",
@@ -120,7 +120,7 @@ const websiteNode = {
 const serviceNode = {
     "@type": "ProfessionalService",
     "@id": SERVICE_ID,
-    name: "Michael Owen – Web Development Services",
+    name: "Michael Odugu – Web Development Services",
     url: BASE_URL,
     image: `${BASE_URL}/images/homepage.jpg`,
     email: CONTACT_EMAIL,
@@ -213,7 +213,7 @@ export const getHomeSchema = () => {
                 "@type": "WebPage",
                 "@id": `${BASE_URL}/#webpage`,
                 url: BASE_URL,
-                name: "Michael Owen | Web Developer for Business Websites & MVPs",
+                name: "Michael Odugu | Web Developer for Business Websites & MVPs",
                 description: HOME_META_DESCRIPTION,
                 isPartOf: { "@id": WEBSITE_ID },
                 about: { "@id": PERSON_ID },
@@ -246,11 +246,11 @@ export const getAboutSchema = () => {
                 "@type": "ProfilePage",
                 "@id": `${pageUrl}#profilepage`,
                 url: pageUrl,
-                name: "About Michael Owen | Full-Stack Web Developer",
+                name: "About Michael Odugu | Full-Stack Web Developer",
                 headline:
                     "Building digital products with clarity, purpose, and reliable execution.",
                 description:
-                    "Learn about Michael Owen, a full-stack developer building fast websites, MVPs, and digital products for founders, startups, and businesses based in Newbridge, Canada.",
+                    "Learn about Michael Odugu, a full-stack developer building fast websites, MVPs, and digital products for founders, startups, and businesses based in Newbridge, Canada.",
                 primaryImageOfPage: {
                     "@type": "ImageObject",
                     url: `${BASE_URL}/images/aboutpage.jpg`,
@@ -285,10 +285,10 @@ export const getProjectsSchema = () => {
                 "@type": "CollectionPage",
                 "@id": `${pageUrl}#collectionpage`,
                 url: pageUrl,
-                name: "Projects | Michael Owen",
+                name: "Projects | Michael Odugu",
                 headline: "Selected projects built around real business needs.",
                 description:
-                    "A collection of websites, MVPs, and digital products built by Michael Owen — covering personal builds, freelance work, and collaborative company projects.",
+                    "A collection of websites, MVPs, and digital products built by Michael Odugu — covering personal builds, freelance work, and collaborative company projects.",
                 primaryImageOfPage: {
                     "@type": "ImageObject",
                     url: `${BASE_URL}/og-image.jpg`,
@@ -374,10 +374,10 @@ export const getServicesSchema = () => {
                 "@type": "CollectionPage",
                 "@id": `${pageUrl}#collectionpage`,
                 url: pageUrl,
-                name: "Services | Michael Owen",
+                name: "Services | Michael Odugu",
                 headline: "Services for websites, landing pages, MVPs, and WordPress builds.",
                 description:
-                    "Explore web development services from Michael Owen, including business websites, landing pages, MVP development, and WordPress website development.",
+                    "Explore web development services from Michael Odugu, including business websites, landing pages, MVP development, and WordPress website development.",
                 primaryImageOfPage: {
                     "@type": "ImageObject",
                     url: `${BASE_URL}/images/homepage.jpg`,
@@ -440,7 +440,7 @@ export const getServiceSchema = (service: Service) => {
                 "@type": "WebPage",
                 "@id": `${pageUrl}#webpage`,
                 url: pageUrl,
-                name: `${service.title} | Michael Owen`,
+                name: `${service.title} | Michael Odugu`,
                 description: service.summary,
                 isPartOf: { "@id": WEBSITE_ID },
                 about: { "@id": `${pageUrl}#service` },

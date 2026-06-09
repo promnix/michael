@@ -10,14 +10,14 @@ import { Metadata } from "next";
 export const revalidate = 60
 
 const homeMetaDescription =
-  "Fast, SEO-ready business websites and MVPs built with Next.js and WordPress. Michael Owen helps small businesses and founders launch, convert, and compete online.";
+  "Fast, SEO-ready business websites and MVPs built with Next.js and WordPress. Michael Odugu helps small businesses and founders launch, convert, and compete online.";
 
 // home page metadata
 export const metadata: Metadata = {
-  title: "Michael Owen | Web Developer for Business Websites & MVPs",
+  title: "Michael Odugu | Web Developer for Business Websites & MVPs",
   description: homeMetaDescription,
   keywords: [
-    "Michael Owen",
+    "Michael Odugu",
     "web developer in Canada",
     "freelance web developer",
     "business website developer",
@@ -30,18 +30,18 @@ export const metadata: Metadata = {
     "Go developer",
     "Laravel developer"
   ],
-  authors: [{ name: "Michael Owen" }],
-  creator: "Michael Owen",
-  publisher: "Michael Owen",
+  authors: [{ name: "Michael Odugu" }],
+  creator: "Michael Odugu",
+  publisher: "Michael Odugu",
   metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Michael Owen | Fast, Modern Websites for Businesses",
+    title: "Michael Odugu | Fast, Modern Websites for Businesses",
     description: homeMetaDescription,
     url: siteConfig.url,
-    siteName: "Michael Owen",
+    siteName: "Michael Odugu",
     type: "website",
     locale: "en_US",
     images: [
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
         url: "/images/homepage.jpg",
         width: 1200,
         height: 630,
-        alt: "Michael Owen - Web Developer for Business Websites and MVPs",
+        alt: "Michael Odugu - Web Developer for Business Websites and MVPs",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Michael Owen | Web Developer for Business Websites & MVPs",
+    title: "Michael Odugu | Web Developer for Business Websites & MVPs",
     description: homeMetaDescription,
     images: ["/images/homepage.jpg"],
   },
